@@ -4,7 +4,7 @@ const esClient = require('../services/esService');
 
 /* GET home page. */
 router.get('/', (req, res, next) => {
-  res.json({ message: "Hello word" });
+  res.json({ message: "Hello world" });
 });
 
 router.get('/ping', async (req, res, next) => {
